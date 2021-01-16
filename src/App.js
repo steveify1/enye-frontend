@@ -6,7 +6,7 @@ import Loader from './components/Loader/Loader';
 import './App.css';
 
 function App() {
-  const profilesPerPage = 2;
+  const profilesPerPage = 20;
   const [profiles, setProfiles] = useState([]);
   const [filteredProfiles, setFilteredProfiles] = useState([]);
   const [offset, setOffset] = useState(0);
