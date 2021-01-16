@@ -94,6 +94,7 @@ function App() {
 
     setTotalPages(Math.ceil(filteredResult.length / profilesPerPage));
     setOffset(1);
+    setCurrentPage(1);
     setFilteredProfiles(filteredResult);
   }, [search, filters, profiles]);
 
